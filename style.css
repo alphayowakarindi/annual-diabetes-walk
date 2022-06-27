@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,6 +7,58 @@
   font-family: "Lato", sans-serif;
 }
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
+}
+
+/* global */
+#header h1 {
+  color: #ec5242;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+p {
+  color: #272a31;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  /* header */
+  #header {
+    padding: 15px;
+    background-image: url("/headerbg.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 70vh;
+  }
+
+  #header i {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+  }
+
+  #header h1 {
+    font-size: 30px;
+  }
+
+  #header .description {
+    margin-top: 28px;
+    padding: 12px;
+  }
+
+  #header header .description {
+    border: #fff 3px solid;
+  }
+
+  #header .program {
+    margin-top: 30px;
+  }
+
+  #header h3 {
+    font-weight: 900;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
 }
