@@ -22,6 +22,22 @@ p {
   color: #272a31;
 }
 
+#program h2 {
+  color: #fff;
+}
+
+#program h4 {
+  color: #ec5242;
+}
+
+#program i {
+  color: #fff;
+}
+
+#program p {
+  color: #fff;
+}
+
 /* mobile */
 @media (max-width: 768px) {
   /* header */
@@ -60,5 +76,58 @@ p {
     font-weight: 900;
     font-size: 22px;
     margin-bottom: 5px;
+  }
+
+  /* Program */
+  #program {
+    background-image: url("/programbg.jpg");
+    background-size: cover;
+    background-position: top;
+    padding: 25px 8px;
+  }
+
+  #program h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #program .line {
+    text-align: center;
+  }
+
+  #program hr {
+    width: 40px;
+    margin: 10px auto;
+    background-color: #ec5242;
+    height: 3px;
+    border: none;
+    margin-bottom: 25px;
+  }
+
+  #program .activity {
+    background-color: rgba(247, 247, 247, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    margin-top: 10px;
+  }
+
+  #program i {
+    font-size: 28px;
+  }
+
+  #program .activity:nth-child(2) h4 {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  #program .join-link a {
+    background-color: #ec5242;
+    color: #fff;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px 45px;
+    display: flex;
   }
 }
