@@ -23,31 +23,31 @@ const featuredSpeakers = [
     id: 1,
     name: "Mutahi Kagwe",
     description: "Cabinet minister for health in the rebublic of Kenya",
-    bottomImageUrl: "/speakerbg.jpg",
-    topImageUrl: "mimister-of-health.jpeg",
+    bottomImageUrl: "/images/speakerbg.jpg",
+    topImageUrl: "/images/mimister-of-health.jpeg",
   },
 
   {
     id: 2,
     name: "Peter Ndegwa",
     description: "CEO of Safaricom telecomunication company",
-    bottomImageUrl: "/speakerbg.jpg",
-    topImageUrl: "safaricom-ceo.jpg",
+    bottomImageUrl: "/images/speakerbg.jpg",
+    topImageUrl: "/images/safaricom-ceo.jpg",
   },
 
   {
     id: 3,
     name: "William Ruto",
     description: "Deputy president of the republic of Kenya",
-    bottomImageUrl: "/speakerbg.jpg",
-    topImageUrl: "deputy-president.jpg",
+    bottomImageUrl: "/images/speakerbg.jpg",
+    topImageUrl: "/images/deputy-president.jpg",
   },
   {
     id: 4,
     name: "Uhuru Kenyatta",
     description: "President of the republic of Kenya",
-    bottomImageUrl: "/speakerbg.jpg",
-    topImageUrl: "president.jpg",
+    bottomImageUrl: "/images/speakerbg.jpg",
+    topImageUrl: "/images/president.jpg",
   },
 ];
 

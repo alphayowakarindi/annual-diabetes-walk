@@ -43,7 +43,7 @@ p {
   /* header */
   #header {
     padding: 15px;
-    background-image: url("/headerbg.jpg");
+    background-image: url("/images/headerbg.jpg");
     background-size: cover;
     background-position: top;
     height: 70vh;
@@ -80,7 +80,7 @@ p {
 
   /* Program */
   #program {
-    background-image: url("/programbg.jpg");
+    background-image: url("/images/programbg.jpg");
     background-size: cover;
     background-position: top;
     padding: 25px 8px;
