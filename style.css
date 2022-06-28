@@ -187,4 +187,44 @@ p {
     font-style: italic;
     color: #ec5242;
   }
+
+  /* Partners */
+  #partners {
+    background-color: #414246;
+    padding: 20px;
+  }
+
+  #partners h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  #partners .line {
+    text-align: center;
+  }
+
+  #partners hr {
+    width: 40px;
+    margin: 10px auto;
+    background-color: #ec5242;
+    height: 3px;
+    border: none;
+    margin-bottom: 25px;
+  }
+
+  #partners .partners div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #partners .partners div:nth-child(1) {
+    margin-bottom: 10px;
+  }
+
+  #partners .partners div:nth-child(2) img {
+    height: 35px;
+    width: 170px;
+  }
 }
