@@ -227,4 +227,13 @@ p {
     height: 35px;
     width: 170px;
   }
+
+  /* Footer */
+  footer{
+    padding: 30px;
+    color: #272a31;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+  }
 }
