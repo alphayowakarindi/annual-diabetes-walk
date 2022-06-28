@@ -236,4 +236,39 @@ p {
     font-size: 14px;
     text-align: center;
   }
+
+  /* Mobile overlay */
+  #mobile-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #e8e6e7;
+    z-index: 1000;
+    display: none;
+  }
+
+  #mobile-overlay i {
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-size: 22px;
+  }
+
+  #mobile-overlay nav {
+    margin-left: 20px;
+  }
+
+  #mobile-overlay li {
+    margin-bottom: 18px;
+    font-size: 25px;
+    list-style: none;
+  }
+
+  #mobile-overlay .nav a {
+    text-decoration: none;
+    color: #272a31;
+  }
 }
