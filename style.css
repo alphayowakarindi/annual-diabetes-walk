@@ -293,4 +293,39 @@ p {
     color: #272a31;
     font-weight: 700;
   }
+
+  /* Logo history */
+  #logo-history {
+    text-align: center;
+    padding: 30px 25px;
+  }
+
+  #logo-history h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #414246;
+  }
+
+  #logo-history .line {
+    text-align: center;
+  }
+
+  #logo-history hr {
+    width: 40px;
+    margin: 10px auto;
+    background-color: #ec5242;
+    height: 1px;
+    border: none;
+    margin-bottom: 25px;
+  }
+
+  #logo-history .brief-history {
+    color: #414246;
+  }
+
+  #logo-history .logo {
+    border: rgba(65, 66, 70, 0.3) 1px solid;
+    margin-top: 30px;
+    padding: 15px 30px;
+  }
 }
