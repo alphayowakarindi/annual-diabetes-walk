@@ -130,7 +130,6 @@ p {
     padding: 30px 45px;
     display: flex;
     align-items: center;
-    justify-content: baseline;
     max-width: 300px;
     font-size: 18px;
     font-weight: 400;
