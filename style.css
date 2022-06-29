@@ -555,7 +555,7 @@ footer {
     padding: 30px 0;
   }
 
-  #program .desktop-link a {
+  #program .desktop-link .see-program {
     color: #fff;
     text-decoration: underline;
   }
