@@ -47,14 +47,17 @@ li {
   list-style: none;
 }
 
+#header {
+  background-image: url("/images/headerbg.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
 /* mobile */
 @media (max-width: 768px) {
   /* header */
   #header {
     padding: 15px;
-    background-image: url("/images/headerbg.jpg");
-    background-size: cover;
-    background-position: top;
     height: 70vh;
   }
 
@@ -447,6 +450,7 @@ li {
     justify-content: space-around;
     align-items: center;
   }
+
   #mobile-overlay .nav ul {
     display: flex;
     align-items: center;
