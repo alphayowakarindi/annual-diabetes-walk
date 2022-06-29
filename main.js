@@ -1,61 +1,61 @@
-const hamburgerMenu = document.querySelector(".fa-bars");
-const mobileOverlay = document.querySelector("#mobile-overlay");
-const xMark = document.querySelector(".fa-xmark");
-const mobileNavLinks = document.querySelectorAll(".mobile-nav-link");
+const hamburgerMenu = document.querySelector('.fa-bars');
+const mobileOverlay = document.querySelector('#mobile-overlay');
+const xMark = document.querySelector('.fa-xmark');
+const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
 
-hamburgerMenu.addEventListener(
-  "click",
-  () => (mobileOverlay.style.display = "block")
-);
+hamburgerMenu.addEventListener('click', () => {
+  mobileOverlay.style.display = 'block';
+});
 
-xMark.addEventListener("click", () => (mobileOverlay.style.display = "none"));
+xMark.addEventListener('click', () => {
+  mobileOverlay.style.display = 'none';
+});
 
 mobileNavLinks.forEach((mobileNavLink) => {
-  mobileNavLink.addEventListener(
-    "click",
-    () => (mobileOverlay.style.display = "none")
-  );
+  mobileNavLink.addEventListener('click', () => {
+    mobileOverlay.style.display = 'none';
+  });
 });
 
 // Featured Speakers
 const featuredSpeakers = [
   {
     id: 1,
-    name: "Mutahi Kagwe",
-    description: "Cabinet minister for health in the rebublic of Kenya",
-    bottomImageUrl: "/images/speakerbg.jpg",
-    topImageUrl: "/images/mimister-of-health.jpeg",
+    name: 'Mutahi Kagwe',
+    description: 'Cabinet minister for health in the rebublic of Kenya',
+    bottomImageUrl: '/images/speakerbg.jpg',
+    topImageUrl: '/images/mimister-of-health.jpeg',
   },
 
   {
     id: 2,
-    name: "Peter Ndegwa",
-    description: "CEO of Safaricom telecomunication company",
-    bottomImageUrl: "/images/speakerbg.jpg",
-    topImageUrl: "/images/safaricom-ceo.jpg",
+    name: 'Peter Ndegwa',
+    description: 'CEO of Safaricom telecomunication company',
+    bottomImageUrl: '/images/speakerbg.jpg',
+    topImageUrl: '/images/safaricom-ceo.jpg',
   },
 
   {
     id: 3,
-    name: "William Ruto",
-    description: "Deputy president of the republic of Kenya",
-    bottomImageUrl: "/images/speakerbg.jpg",
-    topImageUrl: "/images/deputy-president.jpg",
+    name: 'William Ruto',
+    description: 'Deputy president of the republic of Kenya',
+    bottomImageUrl: '/images/speakerbg.jpg',
+    topImageUrl: '/images/deputy-president.jpg',
   },
   {
     id: 4,
-    name: "Uhuru Kenyatta",
-    description: "President of the republic of Kenya",
-    bottomImageUrl: "/images/speakerbg.jpg",
-    topImageUrl: "/images/president.jpg",
+    name: 'Uhuru Kenyatta',
+    description: 'President of the republic of Kenya',
+    bottomImageUrl: '/images/speakerbg.jpg',
+    topImageUrl: '/images/president.jpg',
   },
 ];
 
-const featuredSpeakersElement = document.querySelector(".speakers");
+const featuredSpeakersElement = document.querySelector('.speakers');
 
-window.addEventListener("DOMContentLoaded", () => {
-  let featuredSpeakersHtmlVersion = "";
-  for (let i = 0; i < featuredSpeakers.length; i++) {
+window.addEventListener('DOMContentLoaded', () => {
+  let featuredSpeakersHtmlVersion = '';
+  for (let i = 0; i < featuredSpeakers.length; i += 1) {
     featuredSpeakersHtmlVersion += ` 
     <div class="speaker">
     <div class="left">
@@ -69,5 +69,6 @@ window.addEventListener("DOMContentLoaded", () => {
   </div>
     `;
   }
-  return (featuredSpeakersElement.innerHTML = featuredSpeakersHtmlVersion);
+  featuredSpeakersElement.innerHTML = featuredSpeakersHtmlVersion;
+  return featuredSpeakersElement.innerHTML;
 });
