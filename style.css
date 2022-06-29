@@ -50,13 +50,13 @@ li {
 }
 
 #header {
-  background-image: url("/images/headerbg.jpg");
+  background-image: url("images/headerbg.jpg");
   background-size: cover;
   background-position: top;
 }
 
 #program {
-  background-image: url("/images/programbg.jpg");
+  background-image: url("images/programbg.jpg");
   background-size: cover;
   background-position: top;
 }
@@ -260,11 +260,11 @@ footer {
 }
 
 #past-walks .walks .walk:nth-child(1) {
-  background-image: url("/images/walk1.jpg");
+  background-image: url("images/walk1.jpg");
 }
 
 #past-walks .walks .walk:nth-child(2) {
-  background-image: url("/images/walk2.jpg");
+  background-image: url("images/walk2.jpg");
 }
 
 #past-walks .overlay {
