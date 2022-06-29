@@ -53,6 +53,23 @@ li {
   background-position: top;
 }
 
+#program {
+  background-image: url("/images/programbg.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+#program h2 {
+  text-align: center;
+}
+
+#program hr {
+  width: 40px;
+  background-color: #ec5242;
+  height: 3px;
+  border: none;
+}
+
 /* mobile */
 @media (max-width: 768px) {
   /* header */
@@ -92,27 +109,15 @@ li {
 
   /* Program */
   #program {
-    background-image: url("/images/programbg.jpg");
-    background-size: cover;
-    background-position: top;
     padding: 25px 8px;
   }
 
   #program h2 {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  #program .line {
     text-align: center;
   }
 
   #program hr {
-    width: 40px;
     margin: 10px auto;
-    background-color: #ec5242;
-    height: 3px;
-    border: none;
     margin-bottom: 25px;
   }
 
