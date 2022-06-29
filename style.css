@@ -222,6 +222,72 @@ footer {
   padding: 15px 30px;
 }
 
+/* Past walks */
+/* Past walks */
+#past-walks {
+  text-align: center;
+  padding: 30px 25px;
+}
+
+#past-walks h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #414246;
+}
+
+#past-walks .line {
+  text-align: center;
+}
+
+#past-walks hr {
+  width: 40px;
+  margin: 10px auto;
+  background-color: #ec5242;
+  height: 1px;
+  border: none;
+  margin-bottom: 25px;
+}
+
+#past-walks .walks .walk {
+  height: 200px;
+  position: relative;
+  z-index: -3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 22px;
+}
+
+#past-walks .walks .walk:nth-child(1) {
+  background-image: url("/images/walk1.jpg");
+}
+
+#past-walks .walks .walk:nth-child(2) {
+  background-image: url("/images/walk2.jpg");
+}
+
+#past-walks .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 210, 207, 0.6);
+  z-index: -1;
+}
+
+#past-walks .walk h5 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+#past-walks .walk .location {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 /* mobile */
 @media (max-width: 768px) {
   /* header */
@@ -346,7 +412,7 @@ footer {
     object-fit: cover;
   }
 
-  /* Past walks */
+  /* Past walks
   #past-walks {
     text-align: center;
     padding: 30px 25px;
@@ -409,7 +475,7 @@ footer {
     color: #fff;
     font-size: 18px;
     font-weight: 700;
-  }
+  } */
 
   .social {
     display: none;
