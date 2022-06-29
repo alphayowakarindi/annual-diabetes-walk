@@ -68,6 +68,54 @@ li {
   border: none;
 }
 
+/* Featured speakers */
+#featured-speakers h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#featured-speakers hr {
+  width: 40px;
+  margin: 10px auto;
+  background-color: #ec5242;
+  height: 3px;
+  border: none;
+  margin-bottom: 25px;
+}
+
+#featured-speakers .speaker .left {
+  position: relative;
+  min-width: 120px;
+  min-height: 120px;
+}
+
+#featured-speakers .speaker img:nth-child(1) {
+  max-width: 55px;
+}
+
+#featured-speakers .speaker img:nth-child(2) {
+  max-width: 100px;
+  position: absolute;
+  bottom: 9px;
+  right: 9px;
+}
+
+#featured-speakers .speaker .right h3 {
+  color: #272a31;
+}
+
+#featured-speakers .speaker .right p {
+  font-style: italic;
+  color: #ec5242;
+}
+
+#featured-speakers .speaker {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
 /* mobile */
 @media (max-width: 768px) {
   /* header */
@@ -153,64 +201,6 @@ li {
 
   #program .desktop-link {
     display: none;
-  }
-
-  /* Featured speakers */
-  #featured-speakers h2 {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 25px;
-  }
-
-  #featured-speakers h2 {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 25px;
-  }
-
-  #featured-speakers .line {
-    text-align: center;
-  }
-
-  #featured-speakers hr {
-    width: 40px;
-    margin: 10px auto;
-    background-color: #ec5242;
-    height: 3px;
-    border: none;
-    margin-bottom: 25px;
-  }
-
-  #featured-speakers .speaker {
-    display: flex;
-    align-items: center;
-    padding: 12px;
-  }
-
-  #featured-speakers .speaker .left {
-    position: relative;
-    min-width: 120px;
-    min-height: 120px;
-  }
-
-  #featured-speakers .speaker img:nth-child(1) {
-    max-width: 55px;
-  }
-
-  #featured-speakers .speaker img:nth-child(2) {
-    max-width: 100px;
-    position: absolute;
-    bottom: 9px;
-    right: 9px;
-  }
-
-  #featured-speakers .speaker .right h3 {
-    color: #272a31;
-  }
-
-  #featured-speakers .speaker .right p {
-    font-style: italic;
-    color: #ec5242;
   }
 
   /* Partners */
