@@ -614,4 +614,13 @@ li {
     grid-row-gap: 30px;
     justify-items: center;
   }
+
+  /* Partners */
+  #partners .partners div {
+    justify-content: space-around;
+  }
+
+  #partners .partners div:nth-child(2) {
+    margin-top: 30px;
+  }
 }
