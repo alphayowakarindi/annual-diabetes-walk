@@ -509,4 +509,9 @@ li {
   #header .overview p {
     max-width: 500px;
   }
+
+  /* Program */
+  #program .join-link {
+    display: none;
+  }
 }
