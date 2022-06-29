@@ -38,6 +38,15 @@ p {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+  color: #272a31;
+}
+
+li {
+  list-style: none;
+}
+
 /* mobile */
 @media (max-width: 768px) {
   /* header */
@@ -264,12 +273,6 @@ p {
   #mobile-overlay li {
     margin-bottom: 18px;
     font-size: 25px;
-    list-style: none;
-  }
-
-  #mobile-overlay .nav a {
-    text-decoration: none;
-    color: #272a31;
   }
 
   #mobile-overlay .official-logo {
