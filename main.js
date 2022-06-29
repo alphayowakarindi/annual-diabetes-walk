@@ -64,7 +64,7 @@ window.addEventListener("DOMContentLoaded", () => {
     </div>
     <div class="right">
       <h3>${featuredSpeakers[i].name}</h3>
-      <p>Cabinet minister for health in the rebublic of Kenya</p>
+      <p>${featuredSpeakers[i].description}</p>
     </div>
   </div>
     `;
