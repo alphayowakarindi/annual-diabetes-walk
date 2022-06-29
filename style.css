@@ -24,6 +24,7 @@ p {
 
 #program h2 {
   color: #fff;
+  text-align: center;
 }
 
 #program h4 {
@@ -511,7 +512,46 @@ li {
   }
 
   /* Program */
+  #program {
+    height: 370px;
+    padding-top: 20px;
+  }
+
+  #program h2 {
+    margin-bottom: 10px;
+  }
+
+  #program hr {
+    margin: 0 auto;
+  }
+
   #program .join-link {
     display: none;
+  }
+
+  #program .activities {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 35px;
+  }
+
+  #program .activity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+    padding: 18px;
+    background-color: rgba(247, 247, 247, 0.1);
+  }
+
+  #program .activity i {
+    font-size: 30px;
+  }
+
+  #program .activity h4 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 12px 0;
   }
 }
