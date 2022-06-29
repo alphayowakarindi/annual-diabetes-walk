@@ -606,4 +606,16 @@ footer {
   #header .about-header .contact-details {
     margin-bottom: 0;
   }
+
+  /* Logo history */
+  #logo-history .brief-history {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+
+  #logo-history .logo {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
 }
