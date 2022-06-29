@@ -411,6 +411,7 @@ li {
 }
 
 @media (min-width: 768px) {
+  /* Top nav */
   .social ul {
     padding: 5px 0;
     display: flex;
@@ -429,5 +430,42 @@ li {
   .social a {
     color: #fff;
     font-size: 12px;
+  }
+
+  /* Mobile overlay on desktop. Note: It's the second nav and not an overlay on desktop */
+  #mobile-overlay i {
+    display: none;
+  }
+
+  #mobile-overlay .nav .official-logo-img {
+    height: 70px;
+    object-fit: contain;
+  }
+
+  #mobile-overlay .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #mobile-overlay .nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  #mobile-overlay ul li:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  #mobile-overlay ul li:last-child {
+    padding: 5px;
+    border: #ec5242 3px solid;
+  }
+
+  #mobile-overlay ul li:last-child a {
+    color: #ec5242;
+  }
+
+  #mobile-overlay ul li a:hover {
+    color: #ec5242;
   }
 }
