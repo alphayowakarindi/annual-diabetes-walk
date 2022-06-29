@@ -165,6 +165,28 @@ footer {
   text-align: center;
 }
 
+/* About */
+#header .about-header h1 {
+  text-align: center;
+}
+
+#header .about-header .description {
+  background-color: #fff;
+  text-align: center;
+  border: rgba(65, 66, 70, 0.3) 1px solid !important;
+}
+
+#header .about-header .contact-details {
+  text-align: center;
+  margin-top: 15px;
+  line-height: 1.5;
+}
+
+#header .about-header .contact-details a {
+  color: #272a31;
+  font-weight: 700;
+}
+
 /* mobile */
 @media (max-width: 768px) {
   /* header */
@@ -289,7 +311,7 @@ footer {
     object-fit: cover;
   }
 
-  /* About */
+  /* About
   #header .about-header h1 {
     text-align: center;
   }
@@ -309,7 +331,7 @@ footer {
   #header .about-header .contact-details a {
     color: #272a31;
     font-weight: 700;
-  }
+  } */
 
   /* Logo history */
   #logo-history {
