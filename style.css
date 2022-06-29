@@ -609,4 +609,23 @@ footer {
   footer {
     padding: 50px;
   }
+
+  /* About */
+  #header .about-header .description {
+    margin: 40px auto;
+    max-width: 800px;
+  }
+
+  #header .about-header .contact-details p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  #header .about-header .contact-details {
+    margin-bottom: 0;
+  }
 }
