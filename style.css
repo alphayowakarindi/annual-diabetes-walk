@@ -272,6 +272,10 @@ p {
     color: #272a31;
   }
 
+  #mobile-overlay .official-logo {
+    margin-bottom: 50px;
+  }
+
   /* About */
   #header .about-header h1 {
     text-align: center;
