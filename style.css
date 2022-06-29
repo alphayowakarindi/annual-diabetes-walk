@@ -279,6 +279,10 @@ li {
     margin-bottom: 50px;
   }
 
+  #mobile-overlay .official-logo-img {
+    object-fit: cover;
+  }
+
   /* About */
   #header .about-header h1 {
     text-align: center;
