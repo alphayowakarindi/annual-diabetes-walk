@@ -472,4 +472,35 @@ li {
   #mobile-overlay ul li a:hover {
     color: #ec5242;
   }
+
+  /* Header */
+  #header {
+    height: calc(100vh - 100px);
+    padding: 130px 0 0 130px;
+  }
+
+  #header i {
+    display: none;
+  }
+
+  #header h1 {
+    font-size: 48px;
+  }
+
+  #header header .description {
+    border: #fff 3px solid;
+    max-width: 500px;
+    padding: 15px;
+    margin: 30px 0;
+  }
+
+  #header .overview h3 {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;
+  }
+
+  #header .overview p {
+    max-width: 500px;
+  }
 }
