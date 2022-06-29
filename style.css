@@ -156,6 +156,15 @@ li {
   width: 170px;
 }
 
+/* Footer */
+footer {
+  padding: 30px;
+  color: #272a31;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
 /* mobile */
 @media (max-width: 768px) {
   /* header */
@@ -241,15 +250,6 @@ li {
 
   #program .desktop-link {
     display: none;
-  }
-
-  /* Footer */
-  footer {
-    padding: 30px;
-    color: #272a31;
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
   }
 
   /* Mobile overlay */
