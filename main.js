@@ -22,7 +22,7 @@ const featuredSpeakers = [
   {
     id: 1,
     name: 'Mutahi Kagwe',
-    description: 'Cabinet minister for health in the rebublic of Kenya',
+    subtitle: 'Cabinet minister for health in the rebublic of Kenya',
     bottomImageUrl: 'images/speakerbg.jpg',
     topImageUrl: 'images/mimister-of-health.jpeg',
   },
@@ -30,7 +30,7 @@ const featuredSpeakers = [
   {
     id: 2,
     name: 'Peter Ndegwa',
-    description: 'CEO of Safaricom telecomunication company',
+    subtitle: 'CEO of Safaricom telecomunication company',
     bottomImageUrl: 'images/speakerbg.jpg',
     topImageUrl: 'images/safaricom-ceo.jpg',
   },
@@ -38,14 +38,14 @@ const featuredSpeakers = [
   {
     id: 3,
     name: 'William Ruto',
-    description: 'Deputy president of the republic of Kenya',
+    subtitle: 'Deputy president of the republic of Kenya',
     bottomImageUrl: 'images/speakerbg.jpg',
     topImageUrl: 'images/deputy-president.jpg',
   },
   {
     id: 4,
     name: 'Uhuru Kenyatta',
-    description: 'President of the republic of Kenya',
+    subtitle: 'President of the republic of Kenya',
     bottomImageUrl: 'images/speakerbg.jpg',
     topImageUrl: 'images/president.jpg',
   },
@@ -64,7 +64,7 @@ window.addEventListener('DOMContentLoaded', () => {
     </div>
     <div class="right">
       <h3>${featuredSpeakers[i].name}</h3>
-      <p>${featuredSpeakers[i].description}</p>
+      <p>${featuredSpeakers[i].subtitle}</p>
     </div>
   </div>
     `;
