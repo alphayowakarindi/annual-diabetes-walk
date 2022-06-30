@@ -557,7 +557,8 @@ li {
 
   #program .activities {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
     text-align: center;
     margin-top: 35px;
   }
@@ -569,6 +570,10 @@ li {
     max-width: 200px;
     padding: 18px;
     background-color: rgba(247, 247, 247, 0.1);
+  }
+
+  #program .activity:hover {
+    border: rgba(255, 255, 255, 0.9) 3px solid;
   }
 
   #program .activity i {
