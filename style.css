@@ -422,7 +422,7 @@ footer {
     padding: 5px 0;
     display: flex;
     justify-content: end;
-    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-color: #414246;
   }
 
   .social li:last-child {
