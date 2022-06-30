@@ -36,8 +36,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Live Demo
 
-[Live Demo Link](https://www.loom.com/share/1d25061a596a4864aeeabf48d81e1d52)
+[Live Demo Link](https://alphayowakarindi.github.io/annual-diabetes-walk/)
 
+## Video Description
+
+[Loom video link](https://www.loom.com/share/1d25061a596a4864aeeabf48d81e1d52)
 
 ## Author
 
