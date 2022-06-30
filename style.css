@@ -113,8 +113,23 @@ li {
 }
 
 #featured-speakers .speaker .right p {
+  color: #272a31;
+  font-size: 16px;
+}
+
+#featured-speakers .speaker .right .subtitle {
   font-style: italic;
+  font-size: 14px;
   color: #ec5242;
+  margin: 4px 0;
+}
+
+#featured-speakers .separator {
+  height: 1px;
+  width: 25px;
+  text-align: start;
+  background-color: rgba(128, 128, 128, 0.5);
+  margin: 5px 0;
 }
 
 #featured-speakers .speaker {
