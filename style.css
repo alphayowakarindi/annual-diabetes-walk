@@ -157,12 +157,24 @@ li {
 }
 
 /* Footer */
-footer {
+#footer {
   padding: 30px;
   color: #272a31;
   font-weight: 400;
   font-size: 14px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#footer .right-content {
+  text-align: start;
+  max-width: 500px;
+}
+
+#footer .footer-description {
+  margin-top: 12px;
 }
 
 /* About */
@@ -584,7 +596,7 @@ footer {
     margin-top: 30px;
   }
 
-  footer {
+  #footer {
     padding: 50px;
   }
 
