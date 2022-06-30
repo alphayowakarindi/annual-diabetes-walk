@@ -55,6 +55,13 @@ li {
   background-position: top;
 }
 
+#header h3 {
+  color: #ec5242;
+  font-weight: 500;
+  margin-bottom: 12px;
+  font-size: 25px;
+}
+
 #program {
   background-image: url("images/programbg.jpg");
   background-size: cover;
