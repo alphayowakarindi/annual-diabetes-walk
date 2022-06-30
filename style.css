@@ -168,6 +168,18 @@ li {
   gap: 50px;
 }
 
+.footer-about-page {
+  background-color: #2e2e2e;
+}
+
+.footer-about-page .right-content {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-about-page .footer-description {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 #footer .right-content {
   text-align: start;
   max-width: 500px;
