@@ -1,4 +1,4 @@
-# Annual Diabetes Wa;l
+# Annual Diabetes Walk
 
 > This is a website to document the activities of a diabetes organization that aims at raising awareness 
 for individuals living with diabetes and raising funds to support the campaign against diabetes from people 
@@ -52,6 +52,10 @@ To get a local copy up and running follow these simple example steps.
 Contributions and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/alphayowakarindi/annual-diabetes-walk/issues).
 
+
+## Acknowledgments
+
+- Special thanks to Cindy Shin for creating this awesome [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) that I got inspiration from.
 
 ## 📝 License
 
